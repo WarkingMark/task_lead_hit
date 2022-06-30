@@ -125,7 +125,6 @@ button.red {
 .h2-title {
     font-family: 'Ubuntu bold', sans-serif;
     font-size: 24px;
-    margin-bottom: var(--margin-40);
 }
 .link {
     color: var(--brand-color);
