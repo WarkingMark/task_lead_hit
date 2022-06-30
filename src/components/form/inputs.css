@@ -1,0 +1,36 @@
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.input {
+    padding: 14px 90px 14px 15px;
+    border: 1px solid transparent;
+    background: var(--light-gray-2);
+    border-radius: 5px;
+    width: 100%;
+}
+.input:focus {
+    outline: 2px solid var(--black);
+}
+.input-box:first-child {
+    margin-top: 0;
+}
+.input-wrapper {
+    position: relative;
+}
+.input-box-label {
+    font-size: 18px;
+    font-family: 'Montserrat semiBold', sans-serif;
+    margin-bottom: 20px;
+}
+.input.not-invalid {
+    border: 1px solid var(--red);
+}
+.input:focus ~ .error-message {
+    display: none;
+}
+.error-message {
+    color:var(--red);
+    margin-top: 14px;
+}

@@ -1,0 +1,49 @@
+/* Fonts */
+
+/* Ubuntu */
+@font-face {
+    font-family: 'Ubuntu light'; /* Имя шрифта */
+    src: url(../fonts/ubuntu/Ubuntu-Light.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'Ubuntu medium'; /* Имя шрифта */
+    src: url(../fonts/ubuntu/Ubuntu-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'Ubuntu bold'; /* Имя шрифта */
+    src: url(../fonts/ubuntu/Ubuntu-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'Ubuntu regular'; /* Имя шрифта */
+    src: url(../fonts/ubuntu/Ubuntu-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'Ubuntu italic'; /* Имя шрифта */
+    src: url(../fonts/ubuntu/Ubuntu-Italic.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'Ubuntu medium italic'; /* Имя шрифта */
+    src: url(../fonts/ubuntu/Ubuntu-MediumItalic.ttf); /* Путь к файлу со шрифтом */
+}
+
+/* Montserrat */
+@font-face {
+    font-family: 'Montserrat regular'; /* Имя шрифта */
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'Montserrat medium'; /* Имя шрифта */
+    src: url(../fonts/montserrat/Montserrat-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'Montserrat bold'; /* Имя шрифта */
+    src: url(../fonts/montserrat/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'Montserrat semiBold'; /* Имя шрифта */
+    src: url(../fonts/montserrat/Montserrat-SemiBold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'Montserrat medium italic'; /* Имя шрифта */
+    src: url(../fonts/montserrat/Montserrat-MediumItalic.ttf); /* Путь к файлу со шрифтом */
+}

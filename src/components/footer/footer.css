@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: 40px 0;
+}
+.copyright {
+    font-family: "Ubuntu bold", sans-serif;
+    font-size: 30px;
+    color:var(--gray);
+}

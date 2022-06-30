@@ -1,0 +1,150 @@
+:root {
+    --white: #fff;
+
+    --black: rgba(0, 0, 0, 1);
+
+    --brand-color: #0A70FA;
+    --brand-color-80: rgba(10, 112, 250, 0.8);
+    --brand-color-60: rgba(10, 112, 250, 0.6);
+
+    --gray: #D1D0D0;
+    --light-gray-2: #F7F6F4;
+
+
+    --fire-gradient: radial-gradient(100% 77854.61% at 100% 21.95%, rgba(0, 255, 25, 0.55) 2.45%, rgba(250, 255, 0, 0.55) 43.84%, rgba(255, 0, 0, 0.55) 97.98%);
+
+
+    --red: rgba(233, 11, 5, 1);
+
+    --green: rgba(0, 221, 75, 1);
+
+    --text-white: #fff;
+    --text-black: #000;
+
+    --transition-03: all ease 0.3s;
+
+    --margin-80: 80px;
+    --margin-60: 60px;
+    --margin-40: 40px
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: clamp(14px, 2.5vw, 16px);
+    font-family: 'Montserrat regular', sans-serif;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 0px;
+}
+body.fixed {
+    overflow-y: hidden;
+}
+p {
+    max-width: 700px;
+    text-align: justify;
+    line-height: 200%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+.red {
+    color:var(--red);
+}
+
+#app, .transition-key {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+.button {
+    color:var(--white);
+    font-family: "Montserrat semiBold", sans-serif;
+    font-size: 18px;
+
+    padding: 15px 40px;
+
+    border-radius: 50px;
+    border: 2px solid transparent;
+    background: var(--brand-color);
+
+    cursor: pointer;
+
+    transition: var(--transition-03);
+}
+
+button.red {
+    background: var(--red);
+}
+
+.button:hover, .button.outline:hover {
+    background: transparent;
+    border: 2px solid var(--brand-color);
+
+    color:var(--brand-color);
+}
+.button.disabled {
+    background: var(--gray);
+    pointer-events: none;
+}
+.button.outline {
+    background: transparent;
+    border: 2px solid var(--gray);
+    color:var(--gray);
+}
+.container {
+    width: 100%;
+    max-width: calc(1440px - 160px);
+    margin: 0 auto;
+}
+.container.container--col {
+    display: flex;
+    flex-direction: column;
+}
+.container.container--row {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-title {
+    font-family: 'Ubuntu bold', sans-serif;
+    font-weight: 700;
+    font-size: clamp(24px, 2.5vw, 30px);
+    line-height: 34px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.h2-title {
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 24px;
+    margin-bottom: var(--margin-40);
+}
+.link {
+    color: var(--brand-color);
+    transition: var(--transition-03);
+}
+.link:hover {
+    color:var(--brand-color-60);
+
+}
+.section {
+    margin: var(--margin-80) 0;
+}
+
+.sub-section {
+    margin: var(--margin-60) 0;
+}
+
+.logo {
+    font-family: "Ubuntu bold", sans-serif;
+    font-size: 30px;
+    color:var(--brand-color);
+}

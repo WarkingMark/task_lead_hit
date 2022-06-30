@@ -1,0 +1,10 @@
+.opacity-enter-active,
+.opacity-leave-active {
+    opacity: 1;
+    transition: var(--transition-03);
+}
+
+.opacity-enter-from,
+.opacity-leave-to {
+    opacity: 0;
+}

@@ -1,0 +1,18 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.form__actions {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.form__actions .button {
+    margin-right: 20px;
+}
+
+.form__actions .button:last-child {
+    margin-right: 0;
+}
